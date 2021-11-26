@@ -1,0 +1,16 @@
+.carousel-inner img {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+nav {
+  height: 130px;
+  background-color: white;
+}
+
+.navbar .nav-item:hover .nav-link {
+  /* background-color: #007BFF; */
+  background-color: #DC3545;
+}
+
+/*# sourceMappingURL=menuBootstrap.css.map */

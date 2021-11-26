@@ -1,0 +1,92 @@
+/*!
+ * Bootstrap v4.6.1 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+ 
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+@import "header";
+@import "menuBootstrap";
+@import "body";
+
+
+// modificaciones 
+// inicio each 
+.servicios--aling{
+    text-align: center;
+}
+
+@each $imagenes in electricidad ,  C , regulada,camaras {
+    .#{$imagenes}-img { 
+          //background-image: url("img/puma.jpg");
+          background-image: url("../images/img/#{$imagenes}.png");
+          background-size: cover;
+          background-position: center;
+     }
+ } 
+
+ //maps - incio
+
+ $colores: ( /*Declaramos nuestro mapa*/
+        quienessomos: #6c7753,
+        mision:  #beda24,
+        vision: #C25E38,
+        valores1: #99acaa
+); 
+/*Creamos el bucle para usar los valores del mapa
+en la pagina quienes somos */
+@each $mapa, $colo in $colores {
+   .color--#{$mapa} {
+       background-color: $colo;
+       height: 350px;
+       width: 255px;
+       border: 2px solid #333;
+       text-align: justify;
+       font-size: 15px;
+       text-transform: lowercase;
+       padding: 1px;
+       color: #fff;
+   }
+}
+//maps -fin
+
+
+

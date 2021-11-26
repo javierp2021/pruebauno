@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+}
+
+h5 {
+  color: #039EE3;
+}
+
+h4 {
+  color: #DC3545;
+}
+
+.electricidad--aling {
+  text-align: center;
+}
+
+.electricidad__img--alinng {
+  text-align: center;
+}
+
+.electricidad__p {
+  color: black;
+  text-align: justify;
+}
+
+.comunicaciones--aling {
+  text-align: center;
+}
+
+.comunicaciones__p {
+  color: black;
+  text-align: justify;
+}
+
+.electricidad__p--aling {
+  text-align: justify;
+  padding: 10px;
+}
+
+.row__footer--altura {
+  height: 30px;
+}
+
+.footer {
+  height: 200px;
+  background-color: white;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to top, #ccc, #039EE3);
+}
+
+/*# sourceMappingURL=body.css.map */

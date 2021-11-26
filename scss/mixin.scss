@@ -1,0 +1,21 @@
+@mixin servicios ($fondo:rgb(158, 168, 173) ){
+  background-color: $fondo;
+  color:black;
+ 
+   
+    
+}
+
+
+.regulada {
+    @include servicios (#659231);
+  }
+  
+  .camaras{
+    @include servicios  ();
+  }
+  
+ 
+
+
+
